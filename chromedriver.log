@@ -1,0 +1,44 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 /Users/snsk/chromedriver
+[0.555][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.556][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --use-mock-keychain --ignore-certificate-errors about:blank
+[1.054][INFO]:      Connected to Chrome successfully. Version: 30.0.1599.101
+[1.068][FINE]:      Command received (/session/de7a7bd96ebe40b852435e6c67ada622)
+[1.068][FINE]:      Command finished (/session/de7a7bd96ebe40b852435e6c67ada622) with response {
+   "sessionId": "de7a7bd96ebe40b852435e6c67ada622",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "mac",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "30.0.1599.101",
+      "webStorageEnabled": true
+   }
+}
+
+[1.089][FINE]:      Command received (/session/de7a7bd96ebe40b852435e6c67ada622/url) with params {
+   "url": "http://www.google.com"
+}
+
+[1.090][FINER]:     Waiting for all views to stop loading...
+[1.090][FINER]:     Done waiting for all views to stop loading
