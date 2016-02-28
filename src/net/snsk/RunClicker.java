@@ -18,7 +18,7 @@ public class RunClicker {
 	@Before
 	public void beforeTest() {
 		System.setProperty("webdriver.chrome.driver",
-				"/Users/snsk/chromedriver26");
+				"./chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(500, TimeUnit.MILLISECONDS);
 	}
